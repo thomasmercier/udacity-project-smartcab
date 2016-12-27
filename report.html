@@ -13746,7 +13746,7 @@ iSlJkiRJkiSNxP8HJxd46Zff7JcAAAAASUVORK5CYII=
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong> We have 3 feature with 4 possible outcomes (left, right, forward and None) and 1 boolean features. The total number of possible state is 4^3 * 2 = 128.</p>
+<p><strong>Answer:</strong> We have 4 feature with 4 possible outcomes (left, right, forward and None) and 1 boolean features. The total number of possible state is 4^4 * 2 = 512.</p>
 
 </div>
 </div>
@@ -19675,7 +19675,7 @@ EEKIpiBhSgghhBBCCCGEEEI0BQlTQgghhBBCCCGEEKIp/H+S7Za6jSk80wAAAABJRU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong> I can see two reasons to invalidate the use of future rewards. First, the fact that the deadline is not implemented in the state. As a consequence, the future reward can be large even if the cab is simply "driving around". Also, the environment is evolving around the Smartcab which means that the future reward only has a stochastic meaning.</p>
+<p><strong>Answer:</strong> I can see two reasons to invalidate the use of future rewards. First, the environment is evolving around the Smartcab which means that the future reward only has a stochastic meaning. Second, the Smartcab only has local information about the environment. It means that it can only perform an action which is locally optimal and does not have access to the solution of the global optimization problem.</p>
 
 </div>
 </div>
